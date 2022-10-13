@@ -45,8 +45,8 @@
 
 #contacts div {
     display: block;
-    min-height: 30vw;
-    border-radius: 2vw;
+    min-height: 10vw;
+    border-radius: 1vw;
 }
 
 #contacts div:nth-child(1) {
@@ -82,12 +82,20 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    flex-direction: ro;
 }
 
 #CardsCont div {
-    min-height: 20vw;
+    min-height: 10vw;
     width: 20vw;
     min-width: 100px;
     background-color: crimson;
     border-radius: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #contacts {
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        grid-auto-flow: column;
+    }
 }

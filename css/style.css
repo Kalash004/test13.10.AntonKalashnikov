@@ -1,0 +1,93 @@
+#news {
+    background-color: blanchedalmond;
+}
+
+#news h1 {
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#main {
+    background-color: crimson;
+}
+
+#main h1 {
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#about {
+    background-color: black;
+    color: white
+}
+
+#about h1 {
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#contacts {
+    min-height: 40vw;
+    min-width: 50vw;
+    margin: 5vw;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    align-content: center;
+    gap: 2vw;
+    align-items: center;
+    justify-items: stretch;
+}
+
+#contacts div {
+    display: block;
+    min-height: 30vw;
+    border-radius: 2vw;
+}
+
+#contacts div:nth-child(1) {
+    background-color: blue;
+}
+
+#contacts div:nth-child(2) {
+    background-color: red;
+}
+
+#contacts div:nth-child(3) {
+    background-color: violet;
+}
+
+#contacts div:nth-child(4) {
+    background-color: pink;
+}
+
+#contacts div:nth-child(5) {
+    background-color: saddlebrown;
+}
+
+#contacts div:nth-child(6) {
+    background-color: royalblue;
+}
+
+#CardsCont {
+    margin: 15vw;
+    display: flex;
+    min-height: 20vh;
+    grid-template-columns: 10px;
+    gap: 2vw;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#CardsCont div {
+    min-height: 20vw;
+    width: 20vw;
+    min-width: 100px;
+    background-color: crimson;
+    border-radius: 2vw;
+}

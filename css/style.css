@@ -18,6 +18,21 @@
     margin-right: 20vw;
 }
 
+#navbar {
+    display: inline-flex;
+}
+
+#navbar div {
+    margin: 1vw;
+    background-color: turquoise;
+    height: 5vw;
+    width: 10vw;
+    text-align: center;
+    align-self: center;
+    font-size: 2vw;
+    padding: auto;
+}
+
 #about {
     background-color: black;
     color: white
